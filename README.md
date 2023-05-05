@@ -64,7 +64,6 @@ This project was build using Ruby on Rails
   </ul>
 </details>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -84,7 +83,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Josphat205/react-rails-app.git
+  git clone https://github.com/Josphat205/hello-react-front-end.git
 ```
 
 ### Install
