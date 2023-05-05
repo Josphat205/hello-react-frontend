@@ -103,9 +103,9 @@ To run the project, execute the following command:
   rails server
 ```
 
-### Deployment
+### Backend pull request link
 
-You can deploy this project using:
+[@Frontend](https://github.com/Josphat205/hello-react-frontend/pull/1)
 
 <!--
 Example:
