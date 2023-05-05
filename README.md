@@ -105,7 +105,7 @@ To run the project, execute the following command:
 
 ### Backend pull request link
 
-[@Frontend](https://github.com/Josphat205/hello-react-frontend/pull/1)
+[@Backend link](https://github.com/Josphat205/hello-rails-backend/pull/1)
 
 <!--
 Example:
