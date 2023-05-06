@@ -64,7 +64,6 @@ This project was build using Ruby on Rails
   </ul>
 </details>
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -84,7 +83,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/Josphat205/react-rails-app.git
+  git clone https://github.com/Josphat205/hello-react-front-end.git
 ```
 
 ### Install
@@ -104,9 +103,9 @@ To run the project, execute the following command:
   rails server
 ```
 
-### Deployment
+### Backend pull request link
 
-You can deploy this project using:
+[@Backend link](https://github.com/Josphat205/hello-rails-backend/pull/1)
 
 <!--
 Example:

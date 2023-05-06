@@ -7,23 +7,17 @@ const Home = () => {
   const fetchData = async () => {
     const response = await axios.get("http://localhost:3000/messages");
     dispatch(setGreetings(response.data));
-    
   };
   useEffect(() => {
     fetchData();
   },[]);
-  const greeting = useSelector(state => state.greeting.greeting);
-    
-    return (
-        <div>
+  const greeting = useSelector(state => state.greeting.greeting.message);
+  return (
+    <div style={{alignItems:"center"}}>
       <h1>Greetings</h1>
-      
-        <p>
-          {greeting.message.message} posted on {greeting.message.created_at}
-        </p>
-     
+      {greeting ? <p>{greeting?.message} posted on {greeting?.created_at}</p> : <p>No greetings yet!</p>}
     </div>
-    )
+  );
 };
 
 export default Home;
