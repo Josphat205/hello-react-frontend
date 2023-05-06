@@ -12,7 +12,6 @@ const Home = () => {
     fetchData();
   },[]);
   const greeting = useSelector(state => state.greeting.greeting.message);
-  console.log(greeting);
   return (
     <div style={{alignItems:"center"}}>
       <h1>Greetings</h1>
